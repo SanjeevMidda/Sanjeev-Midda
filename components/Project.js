@@ -19,7 +19,7 @@ const Project = () => {
         <div className="productDetails">
             {
                 projectSelected === "CarHub" && <ProjectItem projectName=" CarHub"
-                purpose=": Find your perfect car! Search through a database, which includes autocomplete, to locate the car you desire. Futher, advanced filters increases the odds of finding the exact car you want. Next JS, Typescript, Headless UI, and Tailwind css, are used to create the front end, and drawing on sveeral APIs to fetch the data to populate our car app." 
+                purpose=": Find your perfect car! Search through a database, which includes autocomplete, to locate the car you desire. Futher, advanced filters increases the odds of finding the exact car you want. Next JS, Typescript, Headless UI, and Tailwind css, are used to create the front end, and drawing on several APIs to fetch the data to populate our car app." 
                 techStack = {["Next js", "Typescript", "Headless UI", "APIs", "Tailwind CSS"]}
                 sourceCode = "https://github.com/SanjeevMidda/car_web_app" image={cars}/>
             }
