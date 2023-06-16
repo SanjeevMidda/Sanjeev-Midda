@@ -13,7 +13,7 @@ const Project = () => {
     <div className='project'>
         <h2>PROJECTS</h2>
         <h3 onClick={() => setProjectSelected("CarHub")}>CarHub</h3>
-        <h3 onClick={() => setProjectSelected("chatGPT")}>chatGPT Image Generator</h3>
+        <h3 onClick={() => setProjectSelected("chatGPT")}>DALL.E Image Generator</h3>
         <h3 onClick={() => setProjectSelected("AI")}>AI Chat App</h3>
 
         <div className="productDetails">
